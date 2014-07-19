@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Nicholas H. McGill</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the 'Thumbnail Gallery' Template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./about.html">Nicholas H. McGill</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    
+    <div class="container">
+
+    <!-- Title Row -->
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h1>Automatic Logo Detection</h1>
+        </div>
+      </div>
+
+      
+      <!-- Photo and description Row -->
+      <div class="row"> 
+
+        <div class="col-lg-8 col-md-8">  
+          <p><i>December 2013</i></p>
+
+          <p>
+            For our final project in a graduate level computer vision, my partner and I developed a Matlab program for automatic logo detection based on the <a href="http://en.wikipedia.org/wiki/Scale-invariant_feature_transform">SIFT method (Scale Invariant Feature Transform)</a>.  There are many difficulties in accurately matching a template image in a random given image, notably the scale and rotation may differ.
+          </p>
+          <center><img src="./images/id3.png"></center>
+          <p>
+            Our algorithm was written from the ground up over the course of 4 weeks.  It works well on images that are face on, or on a reasonable slant.  Extra time was taken to program a C function that extracted the mins and maxes out of the difference of Gaussians (DOGs) -- the time improvement changed from over 30 seconds to less than 0.03s.
+          </p>
+          <p>
+            <b>Aspects:</b> Computer Vision, Matlab, C, MEX files
+          </p>
+
+        </div>
+        <div class="col-lg-4 col-md-4">  
+          <center><img src="./images/id1.png"></center>
+          <br>
+          <center><img src="./images/id2.png"></center>
+        </div>
+
+      </div>
+
+      <hr>
+      
+        <div class="row">
+        <center><img src="./images/id4.png"></center>
+        </div>
+        <hr>
+
+        <div class="row">
+        <center><img src="./images/id5.png"></center>
+        </div>
+        <hr>
+
+        <div class="row">
+        <center><img src="./images/id6.jpg"></center>
+        </div>
+        <hr>
+
+        <div class="row">
+        <center><img src="./images/id7.jpg"></center>
+        </div>
+        <hr>
+
+        <div class="row">
+        <center><img src="./images/id8.jpg"></center>
+        </div>
+        <hr>
+
+        <div class="row">
+        <center><img src="./images/id9.jpg"></center>
+        </div>
+
+        <hr>
+      
+    </div><!-- /.container -->
+
+  <!-- javascript -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34659778-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+
+  </body>
+
+</html>
