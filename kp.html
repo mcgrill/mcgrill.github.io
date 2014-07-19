@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Nicholas H. McGill</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the 'Thumbnail Gallery' Template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./about.html">Nicholas H. McGill</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    
+    <div class="container">
+
+    <!-- Title Row -->
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h1>Kinepeutics</h1>
+        </div>
+      </div>
+
+      
+      <!-- Photo and description Row -->
+      <div class="row"> 
+
+
+        <div class="col-lg-8 col-md-8">  
+          <p><i>March 2012 - May 2012</i></p>
+
+          <p>
+            In my junior level embedded systems class, I created a haptic-feedback driven at-home physical therapy solution. Working with a physical therapist at Penn Medicine, we found that there are two key issues in existing physical therapy solutions: adherence & observance. The system uses the Microsoft Kinect to track a patient's motion through the course of an exercise and package this data for a doctor to view. If off-course in an exercise, the small vibrational motors turn on, alerting the patient.
+          </p>
+          <center>
+          <iframe width="560" height="315" src="http://www.youtube.com/embed/1Kp8-ijb1Tg" frameborder="0" allowfullscreen></iframe>
+          </center>  
+          <p>
+            Lua scripting pulls data from the Kinect to a shared memory location, where Python is able to display a dynamic webpage and send haptic feedback information to an Atmel-based microcontroller.
+          </p>
+          <p>
+            <b>More information:</b> <a href="http://kinepeutics.blogspot.com">kinepeutics.blogspot.com</a>
+          </p>
+          <p>
+            <b>Aspects:</b> Circuit design, Python, Kinect, wireless communication
+          </p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4">
+          <center>
+            <br><br>
+            <img src="./images/kp1.jpg">
+            <br><br>
+            <img src="./images/kp2.png">
+          </center>
+        </div>
+
+
+      </div>
+
+      <hr>
+      
+      <!-- Photo Rows -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <center><img src="./images/kp3.jpg"></center>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <center><img src="./images/kp4.png"></center>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <center><img src="./images/kp5.png"></center>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <center><img src="./images/kp6.jpg"></center>
+        </div>
+      </div>
+      <hr>
+      
+    </div><!-- /.container -->
+
+  <!-- javascript -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34659778-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+
+  </body>
+
+</html>
