@@ -6803,3 +6803,16 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+.full-width-borders {
+  /* also subtract section padding (1.5rem) */
+  margin: 0 -601.5rem;
+  /* add back section padding (1.5rem) */
+  padding: 0.25rem 1.5rem;
+  background: rgb(112, 123, 124);
+  /* border has to be solid, not RGBa */
+  /* 9600px or equiv (600rem = 9600/16) */
+  border-left: 600rem solid rgb(52, 73, 94);
+  border-right: 600rem solid rgb(52, 73, 94);
+}
